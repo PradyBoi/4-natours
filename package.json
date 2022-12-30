@@ -4,7 +4,7 @@
   "description": "Learning node, express and mongoDB",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production&&nodemon server.js"
   },
   "author": "Pradyumn Kumar",
@@ -27,7 +27,7 @@
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.17.0"
   },
-  "engines": {   
-  "node": ">=7.6.0"
- } 
+  "engines": {
+    "node": ">=7.6.0"
+  }
 }
